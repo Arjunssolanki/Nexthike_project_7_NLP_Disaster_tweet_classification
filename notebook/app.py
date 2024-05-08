@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import pickle
-tokenizer = pickle.load(open(r"notebook\vectorizer.pkl","rb"))
-model = pickle.load(open(r"notebook\tfidf_tweet.pkl","rb"))
+tokenizer = pickle.load(open(r"notebook\model\tfidf_vectorizer.pkl","rb"))
+model = pickle.load(open(r"notebook\model\multinomailNB_tfidf_tweet.pkl","rb"))
 app =Flask(__name__)
 
 @app.route("/")
