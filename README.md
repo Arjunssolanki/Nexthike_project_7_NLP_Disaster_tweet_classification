@@ -15,33 +15,34 @@
 ## Utils.py:
 
 utils.py consist of all the function to cleane the text data set and find out functions to extract the important features from the data set:
-get_wordcounts(x):  
-get_charcounts(x):
-get_avg_wordlength(x):
-get_stopwords_counts(x):
-get_hashtag_counts(x):
-get_mentions_counts(x):
-get_digit_counts(x):
-get_uppercase_counts(x):
-cont_exp(x):
-get_emails(x):
-remove_emails(x):
-get_urls(x):
-remove_urls(x):
-remove_rt(x):
-remove_special_chars(x):
-remove_html_tags(x):
-remove_accented_chars(x):
-remove_stopwords(x):
-make_base(x):
-get_value_counts(df, col):
-remove_common_words(x, freq, n=20):
-remove_rarewords(x, freq, n=20):
-remove_dups_char(x):
-spelling_correction(x):
-get_basic_features(df):
-get_ngram(df, col, ngram_range):
-get_word_frequency(tweet, column_name='text'):
+
+1. get_wordcounts(x):
+2. get_charcounts(x):
+3. get_avg_wordlength(x):
+4. get_stopwords_counts(x):
+5. get_hashtag_counts(x):
+6. get_mentions_counts(x):
+7. get_digit_counts(x):
+8. get_uppercase_counts(x):
+9. cont_exp(x):
+10. get_emails(x):
+11. remove_emails(x):
+12. get_urls(x):
+13. remove_urls(x):
+14. remove_rt(x):
+15. remove_special_chars(x):
+16. remove_html_tags(x):
+17. remove_accented_chars(x):
+18. remove_stopwords(x):
+19. make_base(x):
+20. get_value_counts(df, col):
+21. remove_common_words(x, freq, n=20):
+22. remove_rarewords(x, freq, n=20):
+23. remove_dups_char(x):
+24. spelling_correction(x):
+25. get_basic_features(df):
+26. get_ngram(df, col, ngram_range):
+27. get_word_frequency(tweet, column_name='text'):
 
 ## Notebook:
 
