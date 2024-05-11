@@ -50,15 +50,15 @@ utils.py consist of all the function to cleane the text data set and find out fu
 
    #### Models used
 
-   a. classification with TFIDF and SVM
-   b. Classification with Word2Vec and SVM
-   c. word embedding and classification with Deep learning
+   1. classification with TFIDF and SVM
+   2. Classification with Word2Vec and SVM
+   3. word embedding and classification with Deep learning
 
 2. ### RF_Disaster_tweet_classification.ipynb -
 
    #### Model used
 
-   a. Twitter Sentiment Analysis with Random Forest
+   1. Twitter Sentiment Analysis with Random Forest
 
 3. ### TFIDF_Tweet_classification.ipynb
 
@@ -66,10 +66,10 @@ utils.py consist of all the function to cleane the text data set and find out fu
 
    #### models used:
 
-   a. Multinomial Naive Bayes - TFIDF-Bigram
-   b. Passive Aggressive Classifier - TFIDF-Bigram
-   c. Multinomial Naive Bayes - TFIDF-Trigram
-   d. Passive Aggressive Classifier - TFIDF-Trigram
+   1. Multinomial Naive Bayes - TFIDF-Bigram
+   2. Passive Aggressive Classifier - TFIDF-Bigram
+   3. Multinomial Naive Bayes - TFIDF-Trigram
+   4. Passive Aggressive Classifier - TFIDF-Trigram
 
 4. ### Model folder:
 
@@ -79,5 +79,6 @@ utils.py consist of all the function to cleane the text data set and find out fu
 
    This file consists of all the codes use to deploye the model using the flask and it use index.html saved in template.py to make connection with the flask app.
 
-   To run the app.py exceute the above code in the terminal:
-   python notebook/app.py
+   To run the app.py exceute the below code in the terminal:
+
+   ### python notebook/app.py
